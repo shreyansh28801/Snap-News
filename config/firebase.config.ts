@@ -1,11 +1,11 @@
 const firebaseConfig = {
-  apiKey: "AIzaSyBJoCZz5bLh-0vdExyvRJUSByZN8Vmqheo",
-  authDomain: "snap-news-9b12c.firebaseapp.com",
-  projectId: "snap-news-9b12c",
-  storageBucket: "snap-news-9b12c.firebasestorage.app",
-  messagingSenderId: "745349828296",
-  appId: "1:745349828296:web:87219d0c9ca7eb28d29ffd",
-  measurementId: "G-88VBM098N9"
+  apiKey: '<FIREBASE_API_KEY>',
+  authDomain: '<FIREBASE_AUTH_DOMAIN>',
+  projectId: '<FIREBASE_PROJECT_ID>',
+  storageBucket: '<FIREBASE_STORAGE_BUCKET>',
+  messagingSenderId: '<FIREBASE_MESSAGING_SENDER_ID>',
+  appId: '<FIREBASE_APP_ID>',
+  measurementId: '<FIREBASE_MEASUREMENT_ID>'
 };
 
 export default firebaseConfig;
