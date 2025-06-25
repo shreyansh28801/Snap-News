@@ -1,50 +1,109 @@
-# Welcome to your Expo app 👋
+# 📱 Snap News – Mobile News Summary App
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+A sleek mobile app that delivers concise news summaries across various categories in a scrollable, card-based layout. Built with **React Native + Expo** for a fast and intuitive user experience.
 
-## Get started
+---
 
-1. Install dependencies
+## 🚀 Features
 
-   ```bash
-   npm install
-   ```
+- 📰 Scrollable card-based news feed
+- 🎯 Filter by categories (Technology, Sports, Business, etc.)
+- 🔒 Firebase Authentication (Login/Register)
+- ⚙️ Admin Panel (for content management)
+- 🧾 Profile & Notification pages
+- 🌙 Clean UI powered by TailwindCSS and NativeWind
 
-2. Start the app
+---
 
-   ```bash
-   npx expo start
-   ```
+## ⚙️ Tech Stack
 
-In the output, you'll find options to open the app in a
+- **React Native (Expo)**
+- **Firebase Authentication**
+- **TailwindCSS + NativeWind**
+- **TypeScript**
+- **React Navigation**
+- **React Native Safe Area Context**
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
+---
 
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
+## 🛠️ Project Setup
 
-## Get a fresh project
+### Step-by-step Setup Guide:
 
-When you're ready, run:
+#### 🔧 Initialization
 
 ```bash
+npx create-expo-app@latest ./
 npm run reset-project
 ```
 
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
 
-## Learn more
+🌀 Styling with TailwindCSS + NativeWind
+```bash
+npm install nativewind tailwindcss react-native-safe-area-context
+npx tailwindcss init
+```
 
-To learn more about developing your project with Expo, look at the following resources:
+## 🛠 NativeWind Setup ([Guide](https://www.nativewind.dev/quick-starts/expo))
 
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
+#🔐 Firebase Authentication Setup
+Install dependencies:
+```bash
+npx expo install @react-native-firebase/app @react-native-firebase/auth
+```
 
-## Join the community
+Follow the official Firebase setup ([guide](https://rnfirebase.io/auth/usage)) to configure it properly in your project
+```
+#▶️ Running the App (Android)
+Step-by-step:
+1. Install build props support:
+```bash
+npx expo install expo-build-properties
+```
 
-Join our community of developers creating universal apps.
+2. Navigate to the Android folder:
 
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+```bash
+cd android
+```
+
+3. Create a local.properties file inside /android with the following content:
+
+```bash
+sdk.dir = C:\\Users\\YourUsername\\AppData\\Local\\Android\\Sdk
+```
+
+4. Generate signing report:
+
+```bash
+gradlew signingReport
+```
+
+5. Run the Android app:
+
+```bash
+npx expo run:android
+```
+
+or 
+
+For iOS (on macOS):
+```bash
+npx expo run:ios
+```
+
+
+#🖼️ Screenshots
+| Screen           | Preview                                                |
+| ---------------- | ------------------------------------------------------ |
+| 🔐 Login Page    | ![Login](assets/screenshots/login.jpg)                 |
+| 📝 Register Page | ![Register](assets/screenshots/register.jpg)           |
+| 🏠 Home Page     | ![Home](assets/screenshots/NewsCard.jpg)                   |
+| 📚 Sidebar       | ![Sidebar](assets/screenshots/sidebar.jpg)             |
+| 🔔 Notifications | ![Notifications](assets/screenshots/notifications.jpg) |
+| 🛠 Admin Panel(Home)   | ![Admin](assets/screenshots/admin-panel-home.jpg)           |
+| 🛠 Admin Panel(Manage)   | ![Admin](assets/screenshots/admin-panel-manage.jpg)           |
+| 👤 Profile Page  | ![Profile](assets/screenshots/profile.jpg)             |
+
+
+
