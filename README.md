@@ -95,13 +95,14 @@ npx expo run:ios
 #🖼️ Screenshots
 | Screen           | Preview                                                |
 | ---------------- | ------------------------------------------------------ |
-| 🔐 Login Page    |  <img src="assets/screenshots/login.jpg" width="300"/>                |
-| 📝 Register Page | ![Register](assets/screenshots/register.jpg)           |
-| 🏠 Home Page     | ![Home](assets/screenshots/NewsCard.jpg)                   |
-| 📚 Sidebar       | ![Sidebar](assets/screenshots/sidebar.jpg)             |
-| 🔔 Notifications | ![Notifications](assets/screenshots/notifications.jpg) |
-| 🛠 Admin Panel(Home)   | ![Admin](assets/screenshots/admin-panel-home.jpg)           |
-| 🛠 Admin Panel(Manage)   | ![Admin](assets/screenshots/admin-panel-manage.jpg)           |
-| 👤 Profile Page  | ![Profile](assets/screenshots/profile.jpg)             |
+| 🔐 Login Page    | <img src="assets/screenshots/login.jpg" width="300"/> |
+| 📝 Register Page | <img src="assets/screenshots/register.jpg" width="300"/> |
+| 🏠 Home Page     | <img src="assets/screenshots/NewsCard.jpg" width="300"/> |
+| 📚 Sidebar       | <img src="assets/screenshots/sidebar.jpg" width="300"/> |
+| 🔔 Notifications | <img src="assets/screenshots/notifications.jpg" width="300"/> |
+| 🛠 Admin Panel (Home)   | <img src="assets/screenshots/admin-panel-home.jpg" width="300"/> |
+| 🛠 Admin Panel (Manage) | <img src="assets/screenshots/admin-panel-manage.jpg" width="300"/> |
+| 👤 Profile Page  | <img src="assets/screenshots/profile.jpg" width="300"/> |
+
 
 
