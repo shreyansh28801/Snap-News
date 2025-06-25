@@ -2,7 +2,6 @@
 
 A sleek mobile app that delivers concise news summaries across various categories in a scrollable, card-based layout. Built with **React Native + Expo** for a fast and intuitive user experience.
 
----
 
 ## 🚀 Features
 
@@ -104,6 +103,5 @@ npx expo run:ios
 | 🛠 Admin Panel(Home)   | ![Admin](assets/screenshots/admin-panel-home.jpg)           |
 | 🛠 Admin Panel(Manage)   | ![Admin](assets/screenshots/admin-panel-manage.jpg)           |
 | 👤 Profile Page  | ![Profile](assets/screenshots/profile.jpg)             |
-
 
 
