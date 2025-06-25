@@ -95,7 +95,7 @@ npx expo run:ios
 #🖼️ Screenshots
 | Screen           | Preview                                                |
 | ---------------- | ------------------------------------------------------ |
-| 🔐 Login Page    | ![Login](assets/screenshots/login.jpg)                 |
+| 🔐 Login Page    |  <img src="assets/screenshots/login.jpg" width="300"/>                |
 | 📝 Register Page | ![Register](assets/screenshots/register.jpg)           |
 | 🏠 Home Page     | ![Home](assets/screenshots/NewsCard.jpg)                   |
 | 📚 Sidebar       | ![Sidebar](assets/screenshots/sidebar.jpg)             |
