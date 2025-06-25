@@ -37,3 +37,15 @@ yarn-error.*
 *.tsbuildinfo
 
 app-example
+
+
+# Firebase
+google-services.json
+GoogleService-Info.plist
+config/
+
+# Android
+android/
+
+# iOS
+ios/

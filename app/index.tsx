@@ -1,15 +1,21 @@
-import { Text, View } from "react-native";
+// app/index.tsx
+import { useEffect } from 'react';
+import { useRouter } from 'expo-router';
+import { useAuth } from '../context/AuthContext';
 
 export default function Index() {
-  return (
-    <View
-      style={{
-        flex: 1,
-        justifyContent: "center",
-        alignItems: "center",
-      }}
-    >
-      <Text>Edit app/index.tsx to edit this screen.</Text>
-    </View>
-  );
+  const router = useRouter();
+  const { user, initializing } = useAuth();
+
+  useEffect(() => {
+    if (initializing) return;
+
+    if (user) {
+      router.replace('/(tabs)');
+    } else {
+      router.replace('/(auth)/login');
+    }
+  }, [user, initializing]);
+
+  return null; // or a loading indicator
 }
