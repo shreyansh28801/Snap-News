@@ -92,17 +92,19 @@ npx expo run:ios
 ```
 
 
-#🖼️ Screenshots
-| Screen           | Preview                                                |
-| ---------------- | ------------------------------------------------------ |
-| 🔐 Login Page    | <img src="assets/screenshots/login.jpg" width="300"/> |
-| 📝 Register Page | <img src="assets/screenshots/register.jpg" width="300"/> |
-| 🏠 Home Page     | <img src="assets/screenshots/NewsCard.jpg" width="300"/> |
-| 📚 Sidebar       | <img src="assets/screenshots/sidebar.jpg" width="300"/> |
-| 🔔 Notifications | <img src="assets/screenshots/notifications.jpg" width="300"/> |
-| 🛠 Admin Panel (Home)   | <img src="assets/screenshots/admin-panel-home.jpg" width="300"/> |
-| 🛠 Admin Panel (Manage) | <img src="assets/screenshots/admin-panel-manage.jpg" width="300"/> |
-| 👤 Profile Page  | <img src="assets/screenshots/profile.jpg" width="300"/> |
+## 🖼️ Screenshots
+
+| Screen                   | Preview                                                                 |
+|--------------------------|-------------------------------------------------------------------------|
+| 🔐 Login Page            | <img src="assets/screenshots/login.jpg" width="300" style="height:auto;" /> |
+| 📝 Register Page         | <img src="assets/screenshots/register.jpg" width="300" style="height:auto;" /> |
+| 🏠 Home Page             | <img src="assets/screenshots/NewsCard.jpg" width="300" style="height:auto;" /> |
+| 📚 Sidebar               | <img src="assets/screenshots/sidebar.jpg" width="300" style="height:auto;" /> |
+| 🔔 Notifications         | <img src="assets/screenshots/notifications.jpg" width="300" style="height:auto;" /> |
+| 🛠 Admin Panel (Home)    | <img src="assets/screenshots/admin-panel-home.jpg" width="300" style="height:auto;" /> |
+| 🛠 Admin Panel (Manage)  | <img src="assets/screenshots/admin-panel-manage.jpg" width="300" style="height:auto;" /> |
+| 👤 Profile Page          | <img src="assets/screenshots/profile.jpg" width="300" style="height:auto;" /> |
+
 
 
 
