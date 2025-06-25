@@ -96,14 +96,14 @@ npx expo run:ios
 
 | Screen                   | Preview                                                                 |
 |--------------------------|-------------------------------------------------------------------------|
-| 🔐 Login Page            | <img src="assets/screenshots/login.jpg" width="200" style="height:auto;" /> |
-| 📝 Register Page         | <img src="assets/screenshots/register.jpg" width="200" style="height:auto;" /> |
-| 🏠 Home Page             | <img src="assets/screenshots/NewsCard.jpg" width="200" style="height:auto;" /> |
-| 📚 Sidebar               | <img src="assets/screenshots/sidebar.jpg" width="200" style="height:auto;" /> |
-| 🔔 Notifications         | <img src="assets/screenshots/notifications.jpg" width="200" style="height:auto;" /> |
-| 🛠 Admin Panel (Home)    | <img src="assets/screenshots/admin-panel-home.jpg" width="200" style="height:auto;" /> |
-| 🛠 Admin Panel (Manage)  | <img src="assets/screenshots/admin-panel-manage.jpg" width="200" style="height:auto;" /> |
-| 👤 Profile Page          | <img src="assets/screenshots/profile.jpg" width="200" style="height:auto;" /> |
+| 🔐 Login Page            | <img src="assets/screenshots/login.jpg" height="200" style="width:auto;" /> |
+| 📝 Register Page         | <img src="assets/screenshots/register.jpg" height="200" style="width:auto;" /> |
+| 🏠 Home Page             | <img src="assets/screenshots/NewsCard.jpg" height="200" style="width:auto;" /> |
+| 📚 Sidebar               | <img src="assets/screenshots/sidebar.jpg" height="200" style="width:auto;" /> |
+| 🔔 Notifications         | <img src="assets/screenshots/notifications.jpg" height="200" style="width:auto;" /> |
+| 🛠 Admin Panel (Home)    | <img src="assets/screenshots/admin-panel-home.jpg" height="200" style="width:auto;" /> |
+| 🛠 Admin Panel (Manage)  | <img src="assets/screenshots/admin-panel-manage.jpg" height="200" style="width:auto;" /> |
+| 👤 Profile Page          | <img src="assets/screenshots/profile.jpg" height="200" style="width:auto;" /> |
 
 
 
