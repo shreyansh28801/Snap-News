@@ -93,33 +93,13 @@ npx expo run:ios
 
 ## 🖼️ Screenshots
 
-| Screen 1           | Screen 2            |
+| 🔐 Login Page      | 📝 Register Page     |
 |--------------------|---------------------|
 | <img src="assets/screenshots/login.jpg" height="400" style="width:auto;" /> | <img src="assets/screenshots/register.jpg" height="400" style="width:auto;" /> |
-| 🔐 Login Page      | 📝 Register Page     |
-| <img src="assets/screenshots/NewsCard.jpg" height="400" style="width:auto;" /> | <img src="assets/screenshots/sidebar.jpg" height="400" style="width:auto;" /> |
 | 🏠 Home Page       | 📚 Sidebar           |
-| <img src="assets/screenshots/notifications.jpg" height="400" style="width:auto;" /> | <img src="assets/screenshots/admin-panel-home.jpg" height="400" style="width:auto;" /> |
+| <img src="assets/screenshots/NewsCard.jpg" height="400" style="width:auto;" /> | <img src="assets/screenshots/sidebar.jpg" height="400" style="width:auto;" /> |
 | 🔔 Notifications   | 🛠 Admin Panel (Home) |
-| <img src="assets/screenshots/admin-panel-manage.jpg" height="400" style="width:auto;" /> | <img src="assets/screenshots/profile.jpg" height="400" style="width:auto;" /> |
+| <img src="assets/screenshots/notifications.jpg" height="400" style="width:auto;" /> | <img src="assets/screenshots/admin-panel-home.jpg" height="400" style="width:auto;" /> |
 | 🛠 Admin Panel (Manage) | 👤 Profile Page     |
-
-
-
-
-## 🖼️ Screenshots
-
-| Screen                   | Preview                                                                 |
-|--------------------------|-------------------------------------------------------------------------|
-| 🔐 Login Page            | <img src="assets/screenshots/login.jpg" height="400" style="width:auto;" /> |
-| 📝 Register Page         | <img src="assets/screenshots/register.jpg" height="400" style="width:auto;" /> |
-| 🏠 Home Page             | <img src="assets/screenshots/NewsCard.jpg" height="400" style="width:auto;" /> |
-| 📚 Sidebar               | <img src="assets/screenshots/sidebar.jpg" height="400" style="width:auto;" /> |
-| 🔔 Notifications         | <img src="assets/screenshots/notifications.jpg" height="400" style="width:auto;" /> |
-| 🛠 Admin Panel (Home)    | <img src="assets/screenshots/admin-panel-home.jpg" height="400" style="width:auto;" /> |
-| 🛠 Admin Panel (Manage)  | <img src="assets/screenshots/admin-panel-manage.jpg" height="400" style="width:auto;" /> |
-| 👤 Profile Page          | <img src="assets/screenshots/profile.jpg" height="400" style="width:auto;" /> |
-
-
-
+| <img src="assets/screenshots/admin-panel-manage.jpg" height="400" style="width:auto;" /> | <img src="assets/screenshots/profile.jpg" height="400" style="width:auto;" /> |
 
