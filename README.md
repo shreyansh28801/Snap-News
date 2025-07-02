@@ -2,7 +2,6 @@
 
 A sleek mobile app that delivers concise news summaries across various categories in a scrollable, card-based layout. Built with **React Native + Expo** for a fast and intuitive user experience.
 
----
 
 ## 🚀 Features
 
@@ -92,18 +91,15 @@ For iOS (on macOS):
 npx expo run:ios
 ```
 
+## 🖼️ Screenshots
 
-#🖼️ Screenshots
-| Screen           | Preview                                                |
-| ---------------- | ------------------------------------------------------ |
-| 🔐 Login Page    | ![Login](assets/screenshots/login.jpg)                 |
-| 📝 Register Page | ![Register](assets/screenshots/register.jpg)           |
-| 🏠 Home Page     | ![Home](assets/screenshots/NewsCard.jpg)                   |
-| 📚 Sidebar       | ![Sidebar](assets/screenshots/sidebar.jpg)             |
-| 🔔 Notifications | ![Notifications](assets/screenshots/notifications.jpg) |
-| 🛠 Admin Panel(Home)   | ![Admin](assets/screenshots/admin-panel-home.jpg)           |
-| 🛠 Admin Panel(Manage)   | ![Admin](assets/screenshots/admin-panel-manage.jpg)           |
-| 👤 Profile Page  | ![Profile](assets/screenshots/profile.jpg)             |
-
-
+| 🔐 Login Page      | 📝 Register Page     |
+|--------------------|---------------------|
+| <img src="assets/screenshots/login.jpg" height="400" style="width:auto;" /> | <img src="assets/screenshots/register.jpg" height="400" style="width:auto;" /> |
+| 🏠 Home Page       | 📚 Sidebar           |
+| <img src="assets/screenshots/NewsCard.jpg" height="400" style="width:auto;" /> | <img src="assets/screenshots/sidebar.jpg" height="400" style="width:auto;" /> |
+| 🛠 Admin Panel (Home)  | 🛠 Admin Panel (Manage) |
+|  <img src="assets/screenshots/admin-panel-home.jpg" height="400" style="width:auto;" /> | <img src="assets/screenshots/admin-panel-manage.jpg" height="400" style="width:auto;" /> |
+| 🔔 Notifications  | 👤 Profile Page     |
+| <img src="assets/screenshots/notifications.jpg" height="400" style="width:auto;" /> | <img src="assets/screenshots/profile.jpg" height="400" style="width:auto;" /> |
 
