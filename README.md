@@ -69,7 +69,8 @@ cd android
 3. Create a local.properties file inside /android with the following content:
 
 ```bash
-sdk.dir = C:\\Users\\YourUsername\\AppData\\Local\\Android\\Sdk
+sdk.dir = C:\\Users\\YourUsername\\AppData\\Local\\Android\\Sdk   #for android
+sdk.dir=/Users/shreyansh/Library/Android/sdk  #for ios
 ```
 
 4. Generate signing report:
