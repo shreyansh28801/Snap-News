@@ -10,7 +10,8 @@
     "newArchEnabled": true,
     "ios": {
       "supportsTablet": true,
-      "bundleIdentifier": "com.example.snap-news"  
+      "bundleIdentifier": "com.example.snap-news",
+      "googleServicesFile": "./GoogleService-Info.plist"
     },
     "android": {
       "package": "com.example.snap_news",

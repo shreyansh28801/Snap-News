@@ -1,20 +1,18 @@
+import { styles } from '@/assets/styles/auth.style';
 import { MaterialIcons } from '@expo/vector-icons';
 import auth from '@react-native-firebase/auth';
 import { Link, router } from 'expo-router';
-import { FirebaseError } from 'firebase/app';
 import React, { useState } from 'react';
 import {
-  ActivityIndicator,
-  Alert,
-  KeyboardAvoidingView,
-  Platform,
-  StyleSheet,
-  Text,
-  TextInput,
-  TouchableOpacity,
-  View
+	ActivityIndicator,
+	Alert,
+	KeyboardAvoidingView,
+	Platform,
+	Text,
+	TextInput,
+	TouchableOpacity,
+	View
 } from 'react-native';
-import { styles } from '@/assets/styles/auth.style';
 
 export default function Index() {
 	const [email, setEmail] = useState('');
@@ -22,12 +20,41 @@ export default function Index() {
 	const [isLoading, setLoading] = useState(false);
 
 	const signIn = async () => {
+		if (!email || !password) {
+			Alert.alert('Error', 'Please enter both email and password');
+			return;
+		}
+
 		setLoading(true);
 		try {
 			await auth().signInWithEmailAndPassword(email, password);
-		} catch (e: any) {
-			const err = e as FirebaseError;
-			Alert.alert('Sign In Failed', err.message);
+			// Navigation will be handled by AuthContext
+		} catch (error: any) {
+			let errorMessage = 'An error occurred during sign in';
+			
+			if (error.code) {
+				switch (error.code) {
+					case 'auth/user-not-found':
+						errorMessage = 'No account found with this email address';
+						break;
+					case 'auth/wrong-password':
+						errorMessage = 'Incorrect password';
+						break;
+					case 'auth/invalid-email':
+						errorMessage = 'Invalid email address';
+						break;
+					case 'auth/user-disabled':
+						errorMessage = 'This account has been disabled';
+						break;
+					case 'auth/too-many-requests':
+						errorMessage = 'Too many failed attempts. Please try again later';
+						break;
+					default:
+						errorMessage = error.message || errorMessage;
+				}
+			}
+			
+			Alert.alert('Sign In Failed', errorMessage);
 		} finally {
 			setLoading(false);
 		}
